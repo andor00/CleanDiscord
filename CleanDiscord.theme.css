@@ -1,0 +1,61 @@
+/**
+ * @name CleanDiscord
+ * @description Remove unnecessary stuff from Discord.
+ * @author Alma
+ * @version 1.0.0
+ * @website https://github.com/Spelar1231/CleanDiscord
+ * @source https://github.com/Spelar1231/CleanDiscord/blob/master/themes/CleanDiscord.theme.css
+ * @authorId 875018781221589022
+ * @authorLink https://almadev.fun/
+*/
+
+/* 
+If you want to preserve an element,
+ simply remove the code that deletes it.
+*/
+
+/* Remove the Activity bar */
+[class*='membersGroup']:has([role=button]),
+[class*='member'] [class*='container']:has([class*='badges']) {
+    display: none;
+}
+
+/* Remove clan tags */
+[class*='clanTag']:has([class*='badge']) {
+    display: none;
+}
+
+/* Remove nitro nameplates */
+.container__4bbc6 {
+    display: none;
+}
+
+/* Remove labels on nitro button in settings */
+[class*='premiumTrialBadge']:has([role*='img']) {
+    display: none;
+}
+
+/* Remove labels on nitro button in DMs */
+[class*='premiumTrialBadge']:has([class*='eyebrow']) {
+    display: none;
+}
+
+/* Remove pulse gradient in VC */
+[class*='pulseGradient'] {
+    display: none;
+}
+
+/* Remove avatar decorations */
+.avatarDecoration__44b0c {
+    display: none;
+}
+
+/* Remove profile effects */
+[class*='profileEffects'] [class*='inner']:has([src*='https://cdn.discordapp.com/assets/content/']) {
+    display: none;
+}
+
+/* Remove custom banner in profiles */
+[class*='mask'] [class*='banner'] {
+    display: none;
+}
