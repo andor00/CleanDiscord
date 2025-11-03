@@ -21,6 +21,7 @@ Removed:
 >This file should be compatible with other themes. However, if issues do appear, please open an issue.
 
 Vencord Online Theme: https://raw.githubusercontent.com/Spelar1231/CleanDiscord/refs/heads/main/CleanDiscord.theme.css
+
 File Download:
 - Open CleanDiscord.theme.css in the repository
 - Download raw file(`CTRL + Shift + S`)
