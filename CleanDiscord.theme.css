@@ -68,7 +68,9 @@ If you want to preserve an element,
 }
 
 /* Remove quest button decorations */
-[class*='wrapper']:has([class*='shine']),
+[class*='wrapper']:has(
+    [style*='transform: translateX(calc(0px)) translateY(-50%) rotate(45deg);']
+    ),
 [class*='wrapper']:has([class*='glow']) {
     display: none;
 }
