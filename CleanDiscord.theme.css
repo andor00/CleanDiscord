@@ -31,9 +31,11 @@ If you want to preserve an element,
 }
 
 /* Remove labels on nitro button in settings */
-[class*='premiumTrialBadge']:has([role*='img']) {
+[class*='premiumTab'] [class*='premiumLabel']:has([role*='img']) {
     display: none;
 }
+
+/* TODO: remove the bg coloring from the quest button */
 
 /* Remove labels on nitro button in DMs */
 [class*='premiumTrialBadge']:has([class*='eyebrow']) {
@@ -57,5 +59,16 @@ If you want to preserve an element,
 
 /* Remove custom banner in profiles */
 [class*='mask'] [class*='banner'] {
+    display: none;
+}
+
+/* Remove quest popup */
+[id*='popout']:has([data-mana-component*='popover']) {
+    display: none;
+}
+
+/* Remove quest button decorations */
+[class*='wrapper']:has([class*='shine']),
+[class*='wrapper']:has([class*='glow']) {
     display: none;
 }

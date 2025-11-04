@@ -13,6 +13,7 @@ Removed:
 - Pulse gradient in VC,
 - Avatar decorations,
 - Profile effects,
+- Quest popup and shine effect in DMs(removal of the `Quests` button background is in TODO),
 - Custom banner in profiles.
 
 ## Download
